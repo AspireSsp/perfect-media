@@ -1557,6 +1557,7 @@ nav.navbar.bootsnav {
     letter-spacing: 0.06em;
     padding: 40px 15px;
     text-transform: uppercase;
+    margin-left: 40px;
   }
 
   nav.navbar.bootsnav ul.nav > li > a.active {
