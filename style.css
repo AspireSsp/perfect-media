@@ -834,15 +834,15 @@ padding: 20px;
 }
 
 .btn-theme {
-  background-color: #FFA500;
+  background-color: #086AD8;
   color: #ffffff !important;
-  border: 2px solid #08d858;
+  border: 2px solid #086AD8;
 }
 
 .btn-theme.border {
   background-color: transparent;
   color: #0e2b3d !important;
-  border: 2px solid #8cd808 !important;
+  border: 2px solid #086AD8 !important;
 }
 
 .text-light .btn-theme.border {
@@ -850,15 +850,15 @@ padding: 20px;
 }
 
 .btn-theme.border:hover {
-  background-color: #eaf69c;
+  background-color: #086AD8;;
   color: #ffffff !important;
-  border: 2px solid #556618;
+  border: 2px solid #086AD8;
 }
 
 .btn-theme.effect:hover, 
  .btn-theme.effect:focus {
-  background: #66d808 none repeat scroll 0 0;
-  border: 2px solid #2a8939;
+  background: #086AD8 none repeat scroll 0 0;
+  border: 2px solid #086AD8;
   color: #ffffff;
 }
 
