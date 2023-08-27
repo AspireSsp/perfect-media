@@ -6,13 +6,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Tanda - IT Solutions Template">
+    <meta name="description" content="transforming insights into impact">
 
     <!-- ========== Page Title ========== -->
     <title>Perfect Media</title>
 
     <!-- ========== Favicon Icon ========== -->
-    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/img/perfrct-media-fav-removebg-preview.png" type="image/x-icon">
 
     <!-- ========== Start Stylesheet ========== -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
@@ -116,8 +116,8 @@
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                         <i class="fa fa-bars"></i>
                     </button>
-                    <a class="navbar-brand" href="index.html">
-                        <img src="https://aif.org/wp-content/themes/aif-2018/assets/images/AIF-logo.png" class="logo" alt="Logo">
+                    <a class="navbar-brand" href="/" style="width: 180px;padding: 0%;">
+                        <img src="../assets/img/pm-logo2.png" class="logo" alt="Logo">
                     </a>
                 </div>
                 <!-- End Header Navigation -->
@@ -931,13 +931,13 @@
             <div class="f-items">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 item">
-                        <div class="f-item about">
-                            <img src="https://aif.org/wp-content/uploads/2017/12/AIF-logo-white-300x99.png" alt="Logo">
+                        <div class="f-item about" style="display: flex;align-items : center;flex-direction: column;">
+                            <img src="../assets/img/pm-logo2.png" alt="Logo" style="width: 180px;">
                             <p style="text-align:center;">
-                                The American India Foundation is a 501[c][3] organization committed to improving the lives of India’s underprivileged, with a special focus on women, children, and youth.                            </p>
+                                At Perfect Media, we specialize in shaping impactful election campaigns that resonate with voters and drive success. Our unique blend of data-driven insights and creative communication sets us apart </p>
                                 <!-- <input type="email" placeholder="Your Email" class="form-control" name="email"> -->
-                                <div style="display: flex; justify-content: center; align-items: center;"><button class="donate-button">DONATE NOW</button>  </div>
-                                <div><h6 class="widget-title" style="margin-top: 60px;">New York | California | New Delhi</h6></div>
+                                <div style="display: flex; justify-content: center; align-items: center;"><button class="donate-button">CONTACT NOW</button>  </div>
+                                <div><h6 class="widget-title" style="margin-top: 60px;">Across INDIA</h6></div>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 item">
@@ -1045,7 +1045,7 @@
                                 <ul>
                                     <li>
                                         <strong>Address:</strong>
-                                        Hn0 25 , Mahaveer Residency , Near It Park , Airport Road , Bhopal
+                                        HN. 25, Mahaveer Residency, Near It Park, Airport Road, Bhopal.
                                     </li>
                                     <li>
                                         <strong>Email:</strong>
@@ -1067,10 +1067,11 @@
         <!-- Start Footer Bottom -->
         <div class="footer-bottom">
             <div class="container">
-                <div class="row">
+                <div class="row" style="display: flex;">
                     <div class="col-md-6">
-                        <p>Copyright &copy;  2023. Designed by <a href="#">.........</a></p>
+                        <p>&copy; Copyright 2023. All Rights <a href="https://www.linkedin.com/in/sanjay-prajapat-4187a0208/" target="_blank">Reserved</a></p>
                     </div>
+                   
                     <div class="col-md-6 text-right link">
                         <ul>
                             <li>
@@ -1090,6 +1091,30 @@
         <!-- End Footer Bottom -->
     </footer>
     <!-- End Footer -->
+
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.3.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.3.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyAjXdvSEzzojmuUCcwvuKFoMP6Ih7p_Cng",
+          authDomain: "perfect-mediaa.firebaseapp.com",
+          projectId: "perfect-mediaa",
+          storageBucket: "perfect-mediaa.appspot.com",
+          messagingSenderId: "275634157957",
+          appId: "1:275634157957:web:503e438d2876abcdc2ecec",
+          measurementId: "G-2KE2QW4Z98"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
 
     <!-- jQuery Frameworks
     ============================================= -->

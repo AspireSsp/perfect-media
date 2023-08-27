@@ -1,6 +1,6 @@
 /* ----------------------------------
 
-Template Name: Tanda - IT Solutions Template
+Template Name: transforming insights into impact
 Author: validtheme
 Description:
 Version: 1.6
@@ -592,7 +592,7 @@ padding: 20px;
 
 .default-padding {
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 0px !important;
 }
 
 .default-padding-top {
@@ -7731,3 +7731,4 @@ footer.bg-dark .footer-bottom a {
   background: url(assets/img/preloader.gif) center no-repeat #ffffff;
   text-align: center;
 }
+
