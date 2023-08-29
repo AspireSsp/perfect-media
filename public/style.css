@@ -592,7 +592,7 @@ padding: 20px;
 
 .default-padding {
   padding-top: 120px;
-  padding-bottom: 0px !important;
+  padding-bottom: 120px !important;
 }
 
 .default-padding-top {
