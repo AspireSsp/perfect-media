@@ -908,11 +908,11 @@
   }
 
   .features-area .features-box .item-grid .item i {
-    color: #086AD8 !important;
+    color: #fd3d00f7 !important;
   }
 
   .features-area .item-grid .item:hover {
-    background: linear-gradient(90deg, rgba(8,106,216,1) 0%, rgba(10,60,116,1) 100%) !important;
+    background: linear-gradient(90deg, rgb(216 111 8) 0%, rgb(214 0 0) 100%) !important;
   }
 
   .features-area .features-box .item-grid .item:hover a, 
