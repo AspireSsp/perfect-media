@@ -34,6 +34,7 @@
       <script src="assets/js/html5/html5shiv.min.js"></script>
       <script src="assets/js/html5/respond.min.js"></script>
     <![endif]-->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 
 </head>
 
@@ -167,7 +168,7 @@
                             <h2>Need Help?</h2>
                             <p>Reach out to the world’s most reliable Services</p>
                         </div>
-                        <form action="assets/mail/contact.php" method="POST" class="contact-form">
+                        <form action="#" method="POST" class="contact-form" id="contact-form">
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="form-group">
@@ -621,7 +622,44 @@
     <!-- End Footer -->
 
         <!-- jQuery Frameworks
+            
     ============================================= -->
+    <script>
+        emailjs.init("C0u4LLFL1zVnypfvo");
+    </script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const form = document.getElementById("contact-form");
+
+        form.addEventListener("submit", function (e) {
+            e.preventDefault(); // Prevent the default form submission
+
+            // Collect form data
+            const name = document.getElementById("name").value;
+            const email = document.getElementById("email").value;
+            const phone = document.getElementById("phone").value;
+            const comments = document.getElementById("comments").value;
+
+            // Send email using EmailJS
+            emailjs.send("service_9egflg3", "template_qr7yy7i", {
+                from_name: name,
+                from_email: email,
+                from_phone: phone,
+                message: comments,
+            })
+            .then(function (response) {
+                console.log("Email sent successfully!", response);
+                window.alert('Email sent successfully!')
+            }, function (error) {
+                console.error("Email sending failed:", error);
+                window.alert('Email sending failed!')
+            });
+        });
+    });
+</script>
+
+    
         <script src="../assets/js/jquery-1.12.4.min.js"></script>
         <script src="../assets/js/popper.min.js"></script>
         <script src="../assets/js/bootstrap.min.js"></script>
