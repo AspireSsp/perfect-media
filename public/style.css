@@ -341,7 +341,7 @@ padding: 20px;
   -webkit-transition: all .6s;
   transition: all .6s;
 }
-}
+
 .container-full {
   padding: 0 15px;
   margin: auto;
@@ -1817,16 +1817,14 @@ body,
   opacity: 1;
 }
 
-.carousel-fade .carousel-inner .next, 
- .carousel-fade .carousel-inner .prev, 
- .carousel-fade .carousel-inner .active.left, 
- .carousel-fade .carousel-inner .active.right {
-  left: 0;
-  -webkit-transform: translate3d(0, 0, 0);
-  -moz-transform: translate3d(0, 0, 0);
-  -ms-transform: translate3d(0, 0, 0);
-  -o-transform: translate3d(0, 0, 0);
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    transform: translate3d(0, 0, 0);
 }
+
 
 .carousel-fade .carousel-control {
   z-index: 2;
@@ -4840,17 +4838,17 @@ body,
 }
 
 .service-area .service-box .item .icon::after {
-    position: absolute;
-    left: -20px;
-    top: 0;
-    content: "";
-    height: 50px;
-    width: 50px;
-    background: #fd3d00f7;
-    z-index: -1;
-    border-radius: 50%;
-    opacity: 0.1;
-    transition: transition: all 0.35s ease-in-out;;
+  position: absolute;
+  left: -20px;
+  top: 0;
+  content: "";
+  height: 50px;
+  width: 50px;
+  background: #fd3d00f7;
+  z-index: -1;
+  border-radius: 50%;
+  opacity: 0.1;
+  transition: all 0.35s ease-in-out;
 }
 
 .service-area .service-box .item:hover .icon::after {
