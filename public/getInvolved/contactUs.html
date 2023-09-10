@@ -80,9 +80,9 @@
                                 <li><a href="/about/mission-and-vision.html">MIssion Vision and Values</a></li>
                                 <li><a href="/about/history.html">History</a></li>
                                 <li><a href="/about/peoples.html">People</a></li>
-                                <li><a href="/about/knowledge.html">Knowledge Center</a></li>
+                                   <!-- <li><a href="/about/knowledge.html">Knowledge Center</a></li> -->
                                 <li><a href="/about/news-and-update.html">New & Updates</a></li>
-                                <li><a href="/about/financial.html">Financials</a></li>
+                                <!-- <li><a href="/about/financial.html">Financials</a></li> -->
                             </ul>
                         </li>
                         <li class="dropdown">
@@ -409,7 +409,7 @@
         <!-- support our work -->
     <div>
         <div class="breadcrumb-area shadow dark bg-fixed text-light"
-            style="background-image: url(https://Perfect Media.org/wp-content/uploads/2023/06/Bottom-banner.jpg);">
+            style="background-image: url(https://PerfectMedia.org/wp-content/uploads/2023/06/Bottom-banner.jpg);">
             <div class="container">
                 <div class="row" style="display: flex; align-items: end; justify-content: end;">
                     <!-- <div class="col-lg-6">
@@ -712,9 +712,11 @@
             .then(function (response) {
                 console.log("Email sent successfully!", response);
                 window.alert('Email sent successfully!')
+                location.reload(true);
             }, function (error) {
                 console.error("Email sending failed:", error);
                 window.alert('Email sending failed!')
+                location.reload(true);
             });
         });
     });
