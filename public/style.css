@@ -465,10 +465,7 @@ padding: 20px;
   background-position: center top;
   background-size: cover;
 }
-.bg-fixed-not {
-  background-position: center top;
-  background-size: cover;
-}
+
 .bg-gray {
   background-color: #f3f7fd;
 }
@@ -7734,3 +7731,7 @@ footer.bg-dark .footer-bottom a {
   text-align: center;
 }
 
+.bg-fixed-not {
+  background-position: center top;
+  background-size: cover;
+}
